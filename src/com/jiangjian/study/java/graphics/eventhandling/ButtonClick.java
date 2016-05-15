@@ -2,8 +2,7 @@ package com.jiangjian.study.java.graphics.eventhandling;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 
 /**
  * Created by Administrator on 2016/5/15.
@@ -55,6 +54,8 @@ class ButtonFrame extends JFrame {
         yellowButton.addActionListener(yellowAction);
         blueButton.addActionListener(blueAction);
         redButton.addActionListener(redAction);
+
+        addWindowListener(new WindowAction());
     }
 
     private class ColorAction implements ActionListener {
@@ -68,6 +69,14 @@ class ButtonFrame extends JFrame {
         public void actionPerformed(ActionEvent e) {
             System.out.println(e.getActionCommand());
             buttonPanel.setBackground(backgroundColor);
+        }
+    }
+
+    private class WindowAction extends WindowAdapter{
+        @Override
+        public void windowClosing(WindowEvent event) {
+            System.out.println("system will be existed");
+            System.exit(1);
         }
     }
 }
