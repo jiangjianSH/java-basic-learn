@@ -13,5 +13,7 @@ public class GenericClassSample {
 
         System.out.println("购买：" + orderList.getFirst());
         System.out.println("数量: " + orderList.getSecond());
+
+        Pair<String, Integer> [] orderLists = new Pair[10];
     }
 }

@@ -29,4 +29,7 @@ public class JoinSample {
         System.out.println("Main thread will exit");
     }
 
+    public static void outputClassLoader() {
+        System.out.println(JoinSample.class.getClassLoader());
+    }
 }
