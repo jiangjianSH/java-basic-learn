@@ -19,7 +19,6 @@ public class MyClassLoader extends ClassLoader {
     private Class getClass(String name) {
         String file = name.replace('.', File.separatorChar) + ".class";
         byte[] b = null;
-
         try {
             b = loadClassFileData(file) ;
             Class c = defineClass(name, b, 0, b.length);
