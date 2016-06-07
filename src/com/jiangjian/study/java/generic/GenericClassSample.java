@@ -7,7 +7,6 @@ public class GenericClassSample {
         //具体原因可以参考:http://stackoverflow.com/questions/2721546/why-dont-java-generics-support-primitive-types
 
         Pair<String, Integer> orderList = new Pair<>();
-
         orderList.setFirst("面包");
         orderList.setSecond(5);
 
