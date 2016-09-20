@@ -1,4 +1,4 @@
-package com.jiangjian.study.java.tem;
+package com.jiangjian.study.java.temp;
 
 /**
  * Created by Administrator on 2016/6/29 0029.
