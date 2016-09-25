@@ -25,7 +25,7 @@ public class JoinSample {
 
 
         //main thread will wait for 4 seconds
-        t.join(4000);
+        t.join();
         System.out.println("Main thread will exit");
     }
 

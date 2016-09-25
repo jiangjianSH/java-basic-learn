@@ -46,7 +46,7 @@ public class SimpleThreads {
         // Delay, in milliseconds before
         // we interrupt MessageLoop
         // thread (default one hour).
-        long patience = 1000 * 60 * 60;
+        long patience = 1000 * 2;
 
         // If command line argument
         // present, gives patience
