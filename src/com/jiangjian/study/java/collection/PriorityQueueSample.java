@@ -9,6 +9,7 @@ public class PriorityQueueSample {
         queue.add(new Element(5));
         queue.add(new Element(1));
         queue.add(new Element(2));
+        System.out.println("####elemment:" + queue.element().getValue());
         System.out.println(queue.peek().getValue());
 
         queue.remove();

@@ -18,10 +18,17 @@ public class CollectionSample {
         set2.add("D");
 
         set1.addAll(set2);
-        System.out.println(set1);
+        System.out.println("addAll result: " + set1);
 
         System.out.println(set1.removeAll(set2));
-        System.out.println(set1);
+        System.out.println("removeAll result: " + set1);
+
+
+        Set<String> set3 = new HashSet<>();
+        set3.add("C");
+        set3.add("E");
+        set1.retainAll(set3);
+        System.out.println("retainAll result: " + set1);
 
         System.out.println(set1.containsAll(set2));
     }
