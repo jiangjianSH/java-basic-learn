@@ -1,6 +1,7 @@
 package com.jiangjian.study.java.collection;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -11,9 +12,10 @@ public class RemoveElementInForLoop {
         List<String> a  = new ArrayList();
         a.add("A");
         a.add("B");
-        for(String item : a) {
-            a.remove(item);
-            a.remove(item);
+        Iterator<String> iterable = a.iterator();
+        while(iterable.hasNext()) {
+            iterable.next();
+            iterable.remove();
         }
         System.out.println("size:" + a.size());
     }

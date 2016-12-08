@@ -6,3 +6,4 @@ FreeMarker Template example: ${message}
 <#list countries as country>
 	${country_index + 1}. ${country}
 </#list>
+%{name}

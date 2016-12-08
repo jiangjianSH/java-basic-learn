@@ -7,7 +7,7 @@ import java.io.File;
  */
 public class ListFiles {
     public static void main(String[] args) {
-        File tmp = new File("/tmp");
+        File tmp = new File("./");
         for(String file : tmp.list()) {
             System.out.println(file);
         }

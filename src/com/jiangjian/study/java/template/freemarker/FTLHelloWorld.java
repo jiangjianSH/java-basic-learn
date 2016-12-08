@@ -30,6 +30,7 @@ public class FTLHelloWorld {
             countries.add("Japan");
             data.put("countries", countries);
 
+            data.put("name", "jiangjian");
             Writer out = new OutputStreamWriter(System.out);
             template.process(data, out);
 
