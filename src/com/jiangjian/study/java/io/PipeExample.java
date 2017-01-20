@@ -26,7 +26,7 @@ public class PipeExample {
                 try {
                     int data = pipedInputStream.read();
                     while(data != -1) {
-                        System.out.println((char)data);
+                        System.out.print((char)data);
                         data = pipedInputStream.read();
                     }
                 } catch (IOException e) {

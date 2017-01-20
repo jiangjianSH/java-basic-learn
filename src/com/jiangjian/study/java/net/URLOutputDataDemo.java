@@ -9,7 +9,7 @@ import java.net.URLConnection;
 
 public class URLOutputDataDemo {
     public static void main(String[] args) throws IOException {
-        URL url = new URL("http://localhost:4000/url");
+        URL url = new URL("http://www.baidu.com/url");
         URLConnection urlConnection = url.openConnection();
         urlConnection.setDoOutput(true);
         OutputStreamWriter  out = new OutputStreamWriter(urlConnection.getOutputStream());
