@@ -9,9 +9,9 @@ import java.io.PipedWriter;
  */
 public class PipedReaderWriterSample {
     public static void main(String[] args) {
-        PipedWriter pipedWriter = new PipedWriter();
+        final PipedWriter pipedWriter = new PipedWriter();
         try {
-            PipedReader pipedReader = new PipedReader(pipedWriter);
+            final PipedReader pipedReader = new PipedReader(pipedWriter);
 
             Runnable t1 = new Runnable() {
                 @Override
