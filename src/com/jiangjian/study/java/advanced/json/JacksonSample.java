@@ -32,6 +32,5 @@ public class JacksonSample {
         Car car = new Car();
         car.setAge(1);
         car.setName("BMW");
-        System.out.println(new ObjectMapper().writeValueAsString(car));
     }
 }
