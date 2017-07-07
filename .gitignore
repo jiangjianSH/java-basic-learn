@@ -11,3 +11,4 @@ build/
 .settings
 config2.xml
 /bookstore-jaxb.xml
+target/
