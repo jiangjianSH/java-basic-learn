@@ -1,9 +1,8 @@
-package com.jiangjian.study.java.advanced.webservice;
+package com.jiangjian.study.java.advanced.webservice.demo;
 
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
 import java.net.MalformedURLException;
-import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
 

@@ -1,4 +1,4 @@
-package com.jiangjian.study.java.advanced.webservice;
+package com.jiangjian.study.java.advanced.webservice.demo;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;

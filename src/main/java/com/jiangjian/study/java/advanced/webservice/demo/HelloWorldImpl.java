@@ -1,11 +1,11 @@
-package com.jiangjian.study.java.advanced.webservice;
+package com.jiangjian.study.java.advanced.webservice.demo;
 
 import javax.jws.WebService;
 
 /**
  * Created by Administrator on 2017/5/23.
  */
-@WebService(endpointInterface = "com.jiangjian.study.java.advanced.webservice.HelloWorld")
+@WebService(endpointInterface = "com.jiangjian.study.java.advanced.webservice.demo.HelloWorld")
 public class HelloWorldImpl implements HelloWorld{
     @Override
     public String getHelloWorldAsString(String name) {
