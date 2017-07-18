@@ -17,6 +17,7 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
         ConfigurableApplicationContext ac = new AnnotationConfigApplicationContext(Main.class);
         ac.start();
+        CustomBeanPostProcessor postProcessor = ac.getBean(CustomBeanPostProcessor.class);
         //Following setting applies only to non-web applications. Spring’s web-based ApplicationContext
         // implementations already have code in place to shut down the Spring IoC container
         // gracefully when the relevant web application is shut down
