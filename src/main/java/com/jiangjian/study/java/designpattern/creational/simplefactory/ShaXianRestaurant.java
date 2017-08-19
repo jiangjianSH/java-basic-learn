@@ -1,4 +1,4 @@
-package com.jiangjian.study.java.designpattern.factory.simplefactory;
+package com.jiangjian.study.java.designpattern.creational.simplefactory;
 
 public class ShaXianRestaurant {
     public static void main(String[] args) {
