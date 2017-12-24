@@ -1,7 +1,5 @@
 package com.jiangjian.study.java.advanced.functional;
 
-import java.util.function.Consumer;
-
 /**
  * Created by Administrator on 2016/10/9 0009.
  */
