@@ -1,6 +1,5 @@
 package com.jiangjian.study.java.advanced.json;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
 import java.util.List;
