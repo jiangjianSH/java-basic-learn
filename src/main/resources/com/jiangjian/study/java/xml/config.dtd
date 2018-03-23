@@ -1,0 +1,3 @@
+<!ELEMENT contact(name, location)>
+
+<!ELEMENT location (address | (latitude, longtitude))>
