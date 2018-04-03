@@ -1,4 +1,4 @@
-package com.jiangjian.leanring.java.advanced.crypto;
+package com.jiangjian.study.java.advanced.crypto;
 
 import com.jiangjian.study.java.advanced.crypto.bouncyCastle.IDEACoder;
 import org.apache.commons.net.util.Base64;

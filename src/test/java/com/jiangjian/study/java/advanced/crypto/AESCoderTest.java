@@ -1,6 +1,5 @@
-package com.jiangjian.leanring.java.advanced.crypto;
+package com.jiangjian.study.java.advanced.crypto;
 
-import com.jiangjian.study.java.advanced.crypto.AbstractAESCoder;
 import org.apache.commons.net.util.Base64;
 import org.junit.Test;
 

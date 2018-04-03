@@ -1,4 +1,4 @@
-package com.jiangjian.leanring.java;
+package com.jiangjian.study.java;
 
 import org.junit.Test;
 
