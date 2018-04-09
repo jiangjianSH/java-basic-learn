@@ -1,11 +1,10 @@
-package com.jiangjian.study.java.junitapp.stubs;
+package com.jiangjian.study.java.test.junitapp.stubs;
 
 import org.apache.http.HttpHeaders;
 import org.junit.*;
 import org.mortbay.jetty.Handler;
 import org.mortbay.jetty.Server;
 import org.mortbay.jetty.handler.AbstractHandler;
-import org.mortbay.jetty.handler.ResourceHandler;
 import org.mortbay.jetty.servlet.Context;
 import org.mortbay.util.ByteArrayISO8859Writer;
 
@@ -14,7 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.OutputStream;
-import java.io.Writer;
 import java.net.MalformedURLException;
 import java.net.URL;
 

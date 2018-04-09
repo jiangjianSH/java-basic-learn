@@ -1,4 +1,4 @@
-package com.jiangjian.study.java.junitapp;
+package com.jiangjian.study.java.test.junitapp;
 
 import java.util.HashMap;
 import java.util.Map;

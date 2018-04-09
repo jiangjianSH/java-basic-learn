@@ -1,4 +1,4 @@
-package com.jiangjian.study.java.junitapp.mocks;
+package com.jiangjian.study.java.test.junitapp.mocks;
 
 public class AccountService {
     private AccountManager accountManager;

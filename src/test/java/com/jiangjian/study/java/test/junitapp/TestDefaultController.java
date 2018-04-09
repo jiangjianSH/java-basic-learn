@@ -1,4 +1,4 @@
-package com.jiangjian.study.java.junitapp;
+package com.jiangjian.study.java.test.junitapp;
 
 import org.junit.Before;
 import org.junit.Ignore;

@@ -1,4 +1,4 @@
-package com.jiangjian.study.java.junitapp.mocks;
+package com.jiangjian.study.java.test.junitapp.mocks;
 
 import org.junit.Test;
 

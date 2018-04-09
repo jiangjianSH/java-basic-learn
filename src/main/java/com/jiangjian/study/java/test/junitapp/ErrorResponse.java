@@ -1,4 +1,4 @@
-package com.jiangjian.study.java.junitapp;
+package com.jiangjian.study.java.test.junitapp;
 
 public class ErrorResponse implements Response {
     private Request originalRequest;

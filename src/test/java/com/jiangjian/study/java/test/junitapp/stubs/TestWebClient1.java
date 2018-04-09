@@ -1,4 +1,4 @@
-package com.jiangjian.study.java.junitapp.stubs;
+package com.jiangjian.study.java.test.junitapp.stubs;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
