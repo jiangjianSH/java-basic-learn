@@ -1,4 +1,4 @@
-package com.jiangjian.study.java.io.nio;
+package com.jiangjian.study.java.nio;
 
 import java.io.IOException;
 import java.io.OutputStream;

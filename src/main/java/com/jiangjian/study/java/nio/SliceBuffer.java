@@ -1,9 +1,7 @@
 // $Id$
-package com.jiangjian.study.java.advanced.nio;// $Id$
+package com.jiangjian.study.java.nio;// $Id$
 
-import java.io.*;
 import java.nio.*;
-import java.nio.channels.*;
 
 public class SliceBuffer
 {

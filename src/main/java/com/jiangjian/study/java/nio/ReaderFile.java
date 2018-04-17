@@ -1,4 +1,4 @@
-package com.jiangjian.study.java.advanced.nio;
+package com.jiangjian.study.java.nio;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

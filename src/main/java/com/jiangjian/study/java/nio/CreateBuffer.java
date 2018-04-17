@@ -1,9 +1,7 @@
 // $Id$
-package com.jiangjian.study.java.advanced.nio;// $Id$
+package com.jiangjian.study.java.nio;// $Id$
 
-import java.io.*;
 import java.nio.*;
-import java.nio.channels.*;
 
 public class CreateBuffer
 {
@@ -13,11 +11,13 @@ public class CreateBuffer
     buffer.put( (byte)'a' );
     buffer.put( (byte)'b' );
     buffer.put( (byte)'c' );
+    buffer.rewind();
+    buffer.put((byte)'s');
 
     buffer.flip();
-
-    System.out.println( (char)buffer.get() );
-    System.out.println( (char)buffer.get() );
-    System.out.println( (char)buffer.get() );
+    System.out.println(buffer.remaining());
+//    System.out.println( (char)buffer.get() );
+//    System.out.println( (char)buffer.get() );
+//    System.out.println( (char)buffer.get() );
   }
 }
