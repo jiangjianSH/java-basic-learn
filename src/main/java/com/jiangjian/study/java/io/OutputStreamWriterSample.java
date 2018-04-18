@@ -10,7 +10,7 @@ public class OutputStreamWriterSample {
         try {
             //write to file
             OutputStreamWriter outputStreamWriter = new OutputStreamWriter(new FileOutputStream("a.txt.bak", true));
-            outputStreamWriter.write("中国是一个历史悠久的古老国家");
+            outputStreamWriter.write("abc");
             outputStreamWriter.close();
 
             //output the file
