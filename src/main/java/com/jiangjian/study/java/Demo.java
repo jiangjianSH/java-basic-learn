@@ -1,31 +1,18 @@
 package com.jiangjian.study.java;
 
+import com.sun.xml.internal.messaging.saaj.util.ByteInputStream;
+import com.sun.xml.internal.messaging.saaj.util.ByteOutputStream;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+
 public class Demo {
-    public static void main(String[] args) {
-        Integer a = 40;
-        Integer b = 40;
-        System.out.println(a == b);
-        Integer c = 128;
-        Integer d = 128;
-        System.out.println(c == d);
-
-        Integer c1 = -128;
-        Integer d1 = -128;
-        System.out.println(c1 == d1);
-
-        Integer c2 = -129;
-        Integer d2 = -129;
-        System.out.println(c2 == d2);
-
-        String str1 = "123";
-        String str2 = "123";
-        String str3 = "1" + "23";
-        String str4 = new String("123");
-        String str5 = str4.intern();
-
-        System.out.println(str5 == str3);
-//        System.out.println(str2 == str3);
-
-
+    public static void main(String[] args) throws IOException {
+        String s = "ﾖ"; //0xFF6E
+        char a = '杨';
+        System.out.println(s.getBytes("UTF-16").length);//length of the string
+        System.out.println(s.charAt(0));//first character in the string
+//        System.out.println(Integer.getChars(12345, 2, new char[100]));
     }
 }
