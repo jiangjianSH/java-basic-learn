@@ -1,4 +1,4 @@
-package com.jiangjian.study.java.advanced.httpclient;
+package com.jiangjian.study.java.advanced.httpclient.quickstart;
 
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;

@@ -1,4 +1,4 @@
-package com.jiangjian.study.java.advanced.httpclient;
+package com.jiangjian.study.java.advanced.httpclient.quickstart;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
