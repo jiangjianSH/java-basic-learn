@@ -1,4 +1,4 @@
-package com.jiangjian.study.java.designpattern.status;
+package com.jiangjian.study.java.designpattern.behavior.status;
 
 public class NoonWorkStatus implements WorkStatus {
     @Override
