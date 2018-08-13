@@ -1,4 +1,4 @@
-package com.jiangjian.study.java.designpattern.creational.observer;
+package com.jiangjian.study.java.designpattern.behavior.observer;
 
 import java.util.ArrayList;
 import java.util.List;

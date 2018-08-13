@@ -1,4 +1,4 @@
-package com.jiangjian.study.java.designpattern.creational.observer;
+package com.jiangjian.study.java.designpattern.behavior.observer;
 
 public class Main {
     public static void main(String[] args) {
