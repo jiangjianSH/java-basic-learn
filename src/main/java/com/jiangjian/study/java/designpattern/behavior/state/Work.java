@@ -1,4 +1,4 @@
-package com.jiangjian.study.java.designpattern.behavior.status;
+package com.jiangjian.study.java.designpattern.behavior.state;
 
 public class Work {
     private int currentHour = 9;
