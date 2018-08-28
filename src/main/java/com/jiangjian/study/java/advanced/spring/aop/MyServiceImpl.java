@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 public class MyServiceImpl implements MyService {
     public void showHi(Object name) {
         System.out.println("hi" + name);
+        throw new IllegalArgumentException();
     }
 
     @Override
