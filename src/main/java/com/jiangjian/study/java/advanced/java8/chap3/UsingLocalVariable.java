@@ -5,5 +5,7 @@ public class UsingLocalVariable {
         int portNum = 12323;
         Runnable runnable = () -> System.out.println(portNum);
         new Thread(runnable).start();
+
+        Runnable runnable1 = () -> {};
     }
 }
