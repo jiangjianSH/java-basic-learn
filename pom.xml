@@ -157,6 +157,20 @@
             <version>2.25</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.apache.curator/curator-framework -->
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-framework</artifactId>
+            <version>5.1.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.6.2</version>
+        </dependency>
+
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-client</artifactId>
@@ -263,6 +277,12 @@
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
             <version>3.0.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.101tec</groupId>
+            <artifactId>zkclient</artifactId>
+            <version>0.7</version>
         </dependency>
     </dependencies>
 

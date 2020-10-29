@@ -8,5 +8,6 @@ public class Demo {
         Integer[] c = new Integer[2];
         Integer[][][][] d = new Integer[2][2][2][2];
         Integer e = d[0][0][0][0];
+        System.out.println(int[].class.getName());
     }
 }

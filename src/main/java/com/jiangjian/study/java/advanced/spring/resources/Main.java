@@ -7,12 +7,15 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.*;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
+import org.springframework.core.env.Environment;
 
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
         ApplicationContext ac = new ClassPathXmlApplicationContext("application-resource.xml");
         ExampleBean bean = ac.getBean(ExampleBean.class);
+        Environment env = ac.getEnvironment();
+        System.out.println("switch: " + env.getProperty("switch"));
         bean.output();
     }
 }

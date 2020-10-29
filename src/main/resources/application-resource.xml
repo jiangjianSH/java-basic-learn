@@ -7,4 +7,7 @@
         <bean class="com.jiangjian.study.java.advanced.spring.resources.ExampleBean">
             <property name="resource" value="http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#resources"/>
         </bean>
+
+    <context:property-placeholder location="classpath:application.properties"/>
+
 </beans>
