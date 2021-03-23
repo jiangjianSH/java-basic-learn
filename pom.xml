@@ -284,6 +284,14 @@
             <artifactId>zkclient</artifactId>
             <version>0.7</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/ognl/ognl -->
+        <dependency>
+            <groupId>ognl</groupId>
+            <artifactId>ognl</artifactId>
+            <version>3.2.15</version>
+        </dependency>
+
     </dependencies>
 
     <build>

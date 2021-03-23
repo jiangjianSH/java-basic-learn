@@ -9,7 +9,12 @@ import java.io.IOException;
 
 public class Demo {
     public static void main(String[] args) throws IOException {
-        Object a = null;
-        String b = (String)a;
+        String a = "a";
+        String b = "a";
+        System.out.println(a == b);
+
+        String c = "姜健";
+        String d = "姜健";
+        System.out.println(c == d);
     }
 }
