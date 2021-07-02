@@ -4,18 +4,11 @@ package com.jiangjian.study.java.designpattern.creational.singleton;
  * Created by Administrator on 2016/12/28 0028.
  */
 public class UniqueResource {
-    private volatile static UniqueResource uniqueResource;
+    private static final UniqueResource uniqueResource = new UniqueResource();
 
     private UniqueResource() {}
 
     public static UniqueResource getInstance() {
-        if(uniqueResource == null) {
-            synchronized (UniqueResource.class) {
-                if(uniqueResource == null) {
-                    uniqueResource = new UniqueResource();
-                }
-            }
-        }
         return uniqueResource;
     }
 
