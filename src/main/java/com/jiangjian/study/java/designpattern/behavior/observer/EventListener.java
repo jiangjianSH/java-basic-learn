@@ -1,5 +1,5 @@
 package com.jiangjian.study.java.designpattern.behavior.observer;
 
-public interface Observer {
+public interface EventListener {
     public void update(int totalNum, int size);
 }

@@ -3,28 +3,28 @@ package com.jiangjian.study.java.designpattern.behavior.observer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Subject {
+public class EventManager {
     private int totalNum;
     private int size;
 
-    private List<Observer> observers = new ArrayList<>();
+    private List<EventListener> eventListeners = new ArrayList<>();
 
-    public Subject(int totalNum, int size) {
+    public EventManager(int totalNum, int size) {
         this.totalNum = totalNum;
         this.size = size;
     }
 
-    public void registerObserver(Observer observer) {
-        observers.add(observer);
+    public void registerObserver(EventListener eventListener) {
+        eventListeners.add(eventListener);
     }
 
-    public void unregisterObserver(Observer observer) {
-        observers.remove(observer);
+    public void unregisterObserver(EventListener eventListener) {
+        eventListeners.remove(eventListener);
     }
 
     public void notifyObservers() {
-        for(Observer observer : observers) {
-            observer.update(totalNum, size);
+        for(EventListener eventListener : eventListeners) {
+            eventListener.update(totalNum, size);
         }
     }
 
@@ -45,6 +45,4 @@ public class Subject {
         this.size = size;
         notifyObservers();
     }
-
-
 }

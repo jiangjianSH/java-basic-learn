@@ -1,8 +1,8 @@
 package com.jiangjian.study.java.designpattern.behavior.observer;
 
-public class ObserverA implements Observer {
+public class EventListenerB implements EventListener {
     @Override
     public void update(int totalNum, int size) {
-        System.out.println("总共:" + totalNum + " 大小为:" + size);
+        System.out.println("平均大小:" + (totalNum / size));
     }
 }
