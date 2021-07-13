@@ -1,5 +1,9 @@
 package com.jiangjian.study.java.designpattern.behavior.state;
 
 public interface WorkStatus {
-    void doWork(Work work);
+    void doWork();
+
+    WorkStatus getPreWorkStatus();
+
+    WorkStatus getNextWorkStatus();
 }

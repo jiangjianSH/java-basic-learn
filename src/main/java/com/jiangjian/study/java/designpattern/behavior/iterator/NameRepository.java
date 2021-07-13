@@ -4,6 +4,7 @@ import java.util.Iterator;
 
 public class NameRepository implements Iterable<String> {
     private String[] names = {"alice", "bob"};
+
     @Override
     public Iterator<String> iterator() {
         return new NameIterator();
