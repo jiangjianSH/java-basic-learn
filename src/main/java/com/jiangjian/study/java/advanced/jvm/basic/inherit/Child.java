@@ -1,6 +1,8 @@
 package com.jiangjian.study.java.advanced.jvm.basic.inherit;
 
 public class Child extends Parent {
+    private static String name = "alice";
+
     public Child() {
         System.out.println("child init");
     }
@@ -11,6 +13,7 @@ public class Child extends Parent {
 
 
     public static void main(String[] args) {
-        new Child();
+      //  new Child();
+        System.out.println(Child.name);
     }
 }

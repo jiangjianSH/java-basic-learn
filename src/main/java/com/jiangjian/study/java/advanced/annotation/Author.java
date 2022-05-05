@@ -7,7 +7,10 @@ import java.lang.annotation.*;
 @Target(value = {ElementType.TYPE})
 public @interface Author {
     String author();
+
     String modifiedDate() default "N/A";
+
     int version() default 1;
+
     String[] receivers() default "N/A";
 }

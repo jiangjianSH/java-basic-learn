@@ -11,14 +11,9 @@ public class SelectSample {
             String selectSql = "select *  from user";
             ResultSet rs = stat.executeQuery(selectSql);
 
-            System.out.println("id column index:" + rs.findColumn("id"));
-            System.out.println("first_name column index:" + rs.findColumn("first_name"));
-            System.out.println("last_name column index: " + rs.findColumn("last_name"));
-            System.out.println("result set type is " + rs.getType());
+            System.out.println("first_name column index:" + rs.findColumn("name"));
             while(rs.next()) {
                 System.out.print(rs.getString(1) + " ");
-                System.out.print(rs.getString(2) + " ");
-                System.out.println(rs.getString(3));
 
             }
 
