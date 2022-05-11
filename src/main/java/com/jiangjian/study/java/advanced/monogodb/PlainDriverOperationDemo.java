@@ -1,6 +1,10 @@
 package com.jiangjian.study.java.advanced.monogodb;
 
-import com.mongodb.MongoClientSettings;
+import com.mongodb
+
+
+
+        .MongoClientSettings;
 import com.mongodb.ServerAddress;
 import com.mongodb.client.*;
 import org.bson.Document;
